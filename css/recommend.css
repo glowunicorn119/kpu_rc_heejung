@@ -1,0 +1,66 @@
+
+ /*header*/
+/*#winestory{width:1920px; height:1000px; background-color:#fff;
+		   padding-top:40px; display: inline-block; }*/
+#winestory ul {box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}		   
+#winestory .header {
+ 	font-family: Didot; 
+ 	font-weight: bold; 
+ 	font-size: 20px; 
+ 	display: inline-block;
+ 	color:black;
+ 	margin:35px 655px 40px 360px;
+ }
+#winestory .navbar { 
+ 	list-style: none; 
+ 	display: inline-block;
+    height: 45px;
+    font-size:15px;
+    font-family: noto sans cjk kr;
+    font-weight: 300;
+    color: black; 
+    margin-left:30px;
+}
+
+#winestory .navbar a{
+	text-decoration: none;
+	color:black;
+}
+#winestory .navbar :hover{color: #b13333;}
+
+/*메인*/
+.main_1{text-align: center; margin:90px 0 0 0px; }
+
+/*추천와인*/
+.wine{margin-top: 100px; text-align: center;}
+.wine li{margin:10px 35px 10px 35px;}
+.wine .wine1{display:inline-block; background-image: url(../images/recommend_1.png); width:130px; height: 235px;}
+.wine img{padding:325px 0 0 20px;}
+.wine h1{display:inline-block; font-family:Noto Sans CJK KR; font-size: 15px; font-weight: bold; color:black; padding-top:250px; }
+
+
+.wine .wine2{display:inline-block; background-image: url(../images/recommend_2.png);  width:130px; height: 235px;}
+.wine .wine3{display:inline-block; background-image: url(../images/recommend_3.png);  width:130px; height: 235px;}
+.wine .wine4{display:inline-block; background-image: url(../images/recommend_4.png);  width:130px; height: 235px;}
+.wine .wine5{display:inline-block; background-image: url(../images/recommend_5.png);  width:130px; height: 235px;}
+.wine .wine6{display:inline-block; background-image: url(../images/recommend_6.png);  width:130px; height: 235px;}
+
+/*슬라이더배너*/
+.curcle{text-align:center; margin:50px 0 50px 0;}
+.curcle .middle{ width: 15px; height: 15px; border-radius: 50px; background-color:#a00029; display: inline-block; margin: 0px 10px;}
+.curcle p{width: 15px; height: 15px; border-radius: 50px; border: 3px solid #a00029; display: inline-block; margin: 0px 10px;}
+.vv{position: absolute; top:1065px; left: 250px;}
+.vv2{position: absolute; top:1065px; right: 250px;}
+
+
+/*푸터*/
+#footer{width: 1920px; height: 120px; background: #1e1e1e; }
+#footer .footer_wine{
+	font-family: Didot; font-size: 15px; color:#Fff;
+	padding-top: 30px;
+	margin: 40px 0 0 370px;
+}
+#footer .footer_sub{
+	font-family: Noto Sans CJK KR; font-size:11px; font-weight: 200; color:#fff;
+	margin: 13px 0 0 370px; line-height: 21px; letter-spacing: 1px;
+}

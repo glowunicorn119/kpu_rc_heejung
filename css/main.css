@@ -1,0 +1,155 @@
+
+/*header*/
+#teamleb{width:1920px; height:130px; display: inline-block; }
+#teamleb .header {
+	font-family: TmonMonsoriOTF; 
+	font-weight: bold; 
+	font-size: 50px; 
+	display: inline-block;
+	color:#373a42;
+	padding : 35px 0px 48px 250px;
+	margin-right:150px;
+}
+#teamleb .navbar { 
+	list-style: none; 
+	display: inline-block;
+	height: 45px;
+	font-size:30px;
+	font-family: noto sans cjk kr;
+	font-weight: 400;
+	color: #373a42; 
+	margin-left:80px;
+}
+
+#teamleb .navbar a{
+	text-decoration: none;
+	color:#373a42;
+}
+#teamleb .navbar :hover{font-weight: bold;}
+}
+
+/*main 첫 화면 페이지*/
+.main{width:1920px; height:945px; text-align: center;}
+.main h2{
+	display: inline-block;
+	font-family:Gmarket Sans TTF;
+	color:white;
+	font-size: 72.75px;
+	line-height: 97px;
+	font-weight: bold;
+	padding: 245px 0px 0px 250px;
+}
+
+.main p{
+	display: inline-block;
+	font-family:Noto Sans CJK KR ;
+	color:white;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 300;
+	padding: 12px 0px 0px 250px;
+}
+
+.main .btn_type01{
+	display: inline-block;
+	border: 1px solid #fff;
+	width: 208px;
+	height: 58px;
+	text-align: center;
+	line-height:55px;
+	font-size: 24px;
+	color:#fff;
+	border-radius: 100px;
+	font-weight: bold;
+	font-family: Noto Sans CJK KR;
+	margin: 36px 0px 0px 250px;
+}
+
+.main .btnbox :hover{background-color: #373a42; border: none; }
+.main {width:1920px; height:945px; background-image: url(../images/water.png); }
+
+
+/*intro teamlab 소개*/
+.teamleb{width: 1920px; height: 295px; background-color:#eef1f6; display: inline-block;}
+.teamleb img{padding: 75px 64px 0px 250px; float:left;}
+.teamleb p{display: inline; padding: 0px 0px 0px; font-family:Noto Sans CJK KR; font-size:25px; display: block;
+	font-weight:600; line-height: 37.5px; padding:65px;}
+
+	/*작품 소개*/
+	.media{clear: both; width: 1920px; height: 700px; display: inline-block; position: relative;}
+	.media .box_btn{width:72px;height: 72px; background-color: #373a42; position: absolute; top: 412px;}
+	.media .box_btn p{font-family: NanumMyeongjo; font-size: 45px; font-weight: bold; color: white; position: absolute; top:24px; left: -232px;}
+	.media .box_btn_2{width:72px;height: 72px; background-color: #373a42; position: absolute; top: 412px; right: 2px;}
+	.media .box_btn_2 p{font-family: NanumMyeongjo; font-size: 45px; font-weight: bold; color: white; position: absolute; top:24px; left: -222px;}
+
+	.media .indexname{	display: inline-block;
+		font-family:Noto Sans CJK KR ;
+		color:#373a42;
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 300;
+		padding: 60px 0px 0px 28px;
+		position: absolute;
+		top:452px;
+		left: 225px;}
+
+		.media h2{font-family: Gmarket Sans TTF; line-height: 110px; font-size: 80px; color:#373a42; padding: 400px 370px 0px 250px; float: left;}
+		.media p{	display: inline-block;
+			font-family:Noto Sans CJK KR ;
+			color:#373a42;
+			font-size: 18px;
+			line-height: 28px;
+			font-weight: 300;
+			padding: 0px 0px 0px 250px; }
+
+			.madia .colletion{margin :72px 0px 0px 0px; }
+			.media .collection .art_1 {width: 470px; height:614px; background-image: url(../images/space.png); display: inline-block; clear: both;}
+			.media .collection h1{font-family: Noto Sans KR; font-weight: bold; font-size: 216px; color:#FFF; padding : 30px 0px 0px 65px;} 
+			.media .collection h2{display: inline; padding: 40px 0px 0px 65px; font-family:Noto Sans CJK KR; font-size:25px; display: inline-block; color:#fff;
+				font-weight:600; line-height: 37.5px;}
+				.media .collection p{display: inline; padding: 4px 0px 0px 65px; font-family:Noto Sans CJK KR; font-size:20px; display: inline-block; color:#fff;
+					font-weight:300; line-height: 32px;}
+					.media .collection .artist{display: inline; padding: 40px 0px 0px 65px; font-family:Noto Sans CJK KR; font-size:20px; display: inline-block; color:#fff;
+						font-weight:300; line-height: 32px;}				      
+						.media .collection .art_2{width: 470px; height:614px; background-image: url(../images/blackwaves.png); display: inline-block; margin: 0px 0px 0px 24px; clear: both;}
+
+						/*현장 스케치*/
+						.sketch h2{font-family: Gmarket Sans TTF; line-height: 110px; font-size: 80px; color:#373a42; padding: 135px 0px 0px 250px;}
+						.sketch .sketchimage{margin:50px 0px 0px 250px;}
+						.sketch .sketchimage p {display: inline; padding: 400px 0px 0px 40px; font-family:Noto Sans CJK KR; font-size:20px; display: inline-block; color:#fff; font-weight:bold; }
+						.sketch .sketchimage .image_1{width:460px;height: 460px; background-image: url(../images/sketch_1.png); margin-right: 20px; display: inline-block;}
+						.sketch .sketchimage .image_2{width:940px;height: 460px; background-image: url(../images/sketch_2.png); display: inline-block;}
+						.sketch .sketchimage .image_3{width:940px;height: 460px; background-image: url(../images/sketch_3.png); display: inline-block; margin-top: 25px;}
+						.sketch .sketchimage .image_4{width:460px;height: 460px; background-image: url(../images/sketch_4.png); margin-left: 20px; display: inline-block;}
+
+						/*생생감상평*/
+						.feel {width:1920px; height:540px; display: inline-block; padding-left: 250px; position: relative;}
+						.feel .face .face_1{position:absolute; top:280px; margin-left:28px; display: inline-block; }
+						.feel .face .face_2{position:absolute;  top:280px; margin-left:510px; display: inline-block; }
+						.feel .face .face_3{position:absolute;  top:280px; margin-left:990px; display: inline-block; }
+						.feel h2{font-family: Gmarket Sans TTF; line-height: 110px; font-size: 80px; color:#373a42; padding: 135px 0px 70px 0px;}
+						.feel .real .kjy{width:460px; height:224px; background-color: #eef1f6; display: inline-block; }
+						.feel .real .khj{width:460px; height:224px; background-color: #eef1f6; display: inline-block; margin-left: 16px;}
+						.feel .real .song{width:460px; height:224px; background-color: #eef1f6; display: inline-block;  margin-left: 16px;}
+						.feel .real p{
+							display: inline-block;
+							font-family:Noto Sans CJK KR ;
+							color:#373a42;
+							font-size: 18px;
+							line-height: 28px;
+							font-weight: 300;
+							padding: 60px 0px 0px 28px;
+						}
+						.feel .real h2{
+							display: inline-block;
+							font-family:Noto Sans CJK KR ;
+							color:#373a42;
+							font-size: 18px;
+							line-height: 28px;
+							font-weight: 300;
+							padding: 25px 0px 0px 28px;}	
+
+
+							.footer_container{width: 1920px; height: 150px; background: #373a42; margin: 144px 0 0 0; }
+							.footer_container h2{font-family: Noto Sans CJK KR; font-size: 30px; color:#fff; padding-top: 40px;  text-align: center;}
+							.footer_container p{font-family: Noto Sans CJK KR; font-size:20px; font-weight: 300; color:#fff; padding-top:10px; text-align: center;}
